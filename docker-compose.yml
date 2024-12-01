@@ -23,7 +23,7 @@ services:
         PMA_PORT: 3306
   app:
     build:
-      context: .
+      context: ./reactlaravel
       dockerfile: Dockerfile
     container_name: app
     restart: unless-stopped
@@ -36,8 +36,8 @@ services:
       - ./reactlaravel/:/var/www
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
   proxy:
-    build: ./proxy
-    restart: unless-stopped
-    container_name: app-prx
+    image: nginx:latest
     ports:
-      - "80:80"
+      - '80:80'
+    volumes:
+      - ./proxy/default.conf:/etc/nginx/nginx.conf
