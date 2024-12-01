@@ -35,10 +35,8 @@ services:
     volumes:
       - ./reactlaravel/:/var/www
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
-  web-proxy:
-    build:
-      context: ./proxy
-      dockerfile: Dockerfile
+  proxy:
+    build: ./proxy
     restart: unless-stopped
     container_name: app-prx
     ports:
