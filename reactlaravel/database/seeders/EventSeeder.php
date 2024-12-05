@@ -16,7 +16,7 @@ class EventSeeder extends Seeder
         Event::factory()->create(
             [
                 "title" => "S8 Underground club",
-                "startDate" => "2024-11-09 19:00 ",
+                "startDate" => "2024-11-09 19:00",
                 "endDate" => "2024-11-09 23:00",
                 "date" => "2024-12-21 19:00",
                 "description" => "",
