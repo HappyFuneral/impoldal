@@ -19,7 +19,7 @@ return new class extends Migration
             $table->dateTime("date");
             $table->string("description");
             $table->string('status');
-            $table->date("price");
+            $table->integer("price");
             $table->foreignId("place_id");
             $table->boolean("is_card");
             $table->string("ticket_website")->nullable();
