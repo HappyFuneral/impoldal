@@ -36,6 +36,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion ,events}) {
                     <div className="flex justify-center w-full ">
                         <iframe src="https://www.boomplay.com/embed/86096083/COL" className="mt-7 mb-4" width="80%" height="600" frameBorder="0"></iframe>
                     </div>
+                    
                     <Widget events={eventss}/>
                 </div>
                 <Footer></Footer>
