@@ -26,6 +26,6 @@ class EventSeeder extends Seeder
                 "price" => "2000"
             ]
         );
-       
+
     }
 }

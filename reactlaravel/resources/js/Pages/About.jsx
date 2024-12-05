@@ -2,16 +2,11 @@ import { Head } from '@inertiajs/react';
 import bg from '@/img/fb43f439-d7b9-458d-9190-cd7dc85699cd.jpg';
 import {Footer} from "@/Components/Footer.jsx";
 
-import {CarouselDefault} from "@/Components/Carousel.jsx";
 import {NavbarDefault} from "@/Components/Navbar.jsx";
-import Widget from "@/Components/Widget.jsx";
 
-export default function Welcome({ auth, laravelVersion, phpVersion ,events}) {
+import AboutInfo from '@/Components/About';
 
-    let eventss = []
-    events.map(
-        event => (eventss.push(event))
-    )
+export default function About() {
 
     return (
         <div
@@ -20,13 +15,13 @@ export default function Welcome({ auth, laravelVersion, phpVersion ,events}) {
                                  {backgroundImage : `url(${bg})`}}>
             <Head title="Főoldal"/>
 
-            <NavbarDefault number={eventss.length}>
+            <NavbarDefault number={0}>
                 <div className="bg-black/70">
-                    <CarouselDefault></CarouselDefault>
+
                     <div className="flex justify-center w-full ">
+                    <AboutInfo/>
                     </div>
 
-                    <Widget events={eventss}/>
                 </div>
                 <Footer></Footer>
             </NavbarDefault>

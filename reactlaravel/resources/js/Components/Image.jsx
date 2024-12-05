@@ -2,9 +2,9 @@ import { Typography } from "@material-tailwind/react";
 
 export function ImgWithCaption({src,caption}) {
   return (
-    <figure className="w-96 h-64 m-4 float-left">
+    <figure className="md:w-96 md:me-3 w-full  float-left">
       <img
-        className="rounded-lg h-full w-full object-cover object-center"
+        className="rounded-lg  object-cover object-center "
         src={src}
         alt="nature image"
       />

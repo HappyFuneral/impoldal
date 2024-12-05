@@ -54,13 +54,14 @@ export function Footer() {
                 <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
                     <Typography
                         variant="small"
-                        className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+                        className="mb-4 text-center font-normal text-gray-200 md:mb-0"
                     >
                         &copy; {currentYear} <a href="https://material-tailwind.com/">Impardonné</a>. All
                         Rights Reserved.
                     </Typography>
-                    <div className="flex gap-4 text-blue-gray-200 sm:justify-center">
+                    <div className="flex gap-4 text-gray-200 sm:justify-center">
                         <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+                            <a href="https://www.facebook.com/impardonnezenekar" target="_blank">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     fill-rule="evenodd"
@@ -68,8 +69,11 @@ export function Footer() {
                                     clip-rule="evenodd"
                                 />
                             </svg>
+                            </a>
+
                         </Typography>
                         <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
                                     fill-rule="evenodd"
@@ -77,6 +81,7 @@ export function Footer() {
                                     clip-rule="evenodd"
                                 />
                             </svg>
+
                         </Typography>
                         <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

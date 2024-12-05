@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string("title");
             $table->double("price");
-            $table->foreignId("artists_id");
             $table->foreignId("event_id");
             $table->timestamps();
         });

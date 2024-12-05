@@ -34,7 +34,7 @@ export function CarouselDefault() {
                             Egy életérzés, amit a zene világán keresztül adunk át!
                         </Typography>
                         <div className="flex justify-center gap-2">
-                            <Link href="">
+                            <Link href="#intro">
                                 <Button size="lg" color="white">
                                     Fedezd fel
                                 </Button>
