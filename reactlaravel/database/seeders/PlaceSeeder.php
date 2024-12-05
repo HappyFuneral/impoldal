@@ -23,7 +23,7 @@ class PlaceSeeder extends Seeder
         Place::factory()->create(
             [
                 "name" => "S8 Underground Club",
-                "address" => "S8 helye",
+                "address" => "S8 Underground Club",
                 "website" => ""
             ]
         );
