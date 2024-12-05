@@ -15,29 +15,17 @@ class EventSeeder extends Seeder
     {
         Event::factory()->create(
             [
-                "title" => "Kartal Rock Pince",
-                "startDate" => "2024-11-09T20:00Z",
-                "endDate" => "2024-11-09T23:00Z",
-                "date" => "2024-11-09T20:00Z",
+                "title" => "S8 Underground club",
+                "startDate" => "2024-11-09 19:00 ",
+                "endDate" => "2024-11-09 23:00",
+                "date" => "2024-12-21 19:00",
                 "description" => "",
                 "is_card" => false,
-                "ticket_website" => "",
-                "place_id" =>1,
-                "price" => "2000"
-            ]
-        );
-        Event::factory()->create(
-            [
-                "title" => "Kartal Rock Pince",
-                "startDate" => "2024-12-21T20:00Z",
-                "endDate" => "2024-12-21T23:00Z",
-                "date" => "2024-12-21T20:00Z",
-                "description" => "",
-                "is_card" => false,
-                "ticket_website" => "",
+                "ticket_website" => "https://s8underground.jegyx1.hu/eloadas/3965/impardonne-backdoor-p-ezerocsi-force-zuhano-h?fbclid=IwY2xjawG9_jBleHRuA2FlbQIxMAABHRqLygMyb4l5AEos5ZrT7XXdLIVblTZL_U5_R7vJZwrZUGnuxnxPMqW2DA_aem_1-8NbNDYXR-0b8-fB09KCQ",
                 "place_id" => 2,
                 "price" => "2000"
             ]
         );
+       
     }
 }

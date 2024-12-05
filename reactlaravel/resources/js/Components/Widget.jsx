@@ -21,8 +21,6 @@ export function Widget({events}) {
                         <Events events={events}></Events>
                     </div>
                 </div>
-
-                <ContactForm/>
             </div>
         </section>
     );

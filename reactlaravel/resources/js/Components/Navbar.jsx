@@ -36,29 +36,10 @@ export function NavbarDefault({children}) {
                 className="p-1 font-normal"
             >
                 <a href="#" className="flex items-center">
-                    Account
+                    
                 </a>
             </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Blocks
-                </a>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Docs
-                </a>
-            </Typography>
+        
         </ul>
     );
 
@@ -73,74 +54,11 @@ export function NavbarDefault({children}) {
                     >
                         <span id="title">Impardonné</span>
                     </Typography>
-                    <div className="flex items-center gap-4">
-                        <div className="mr-4 hidden lg:block">{navList}</div>
-                        <div className="flex items-center gap-x-1">
-                            <ResponsiveNavLink
-                                href={route('login')}
-                                variant="gradient"
-                                size="sm"
-                                className="hidden lg:inline-block hover:bg-gray-600 bg-gray-800 rounded-md border-none text-white"
-                            >
-                                <span>Bejelentkezés</span>
-                            </ResponsiveNavLink>
-                            <ResponsiveNavLink
-                                href={route('register')}
-                                variant="gradient"
-                                size="sm"
-                                className="hidden lg:inline-block hover:bg-gray-600 bg-gray-800 rounded-md border-none text-white"
-                            >
-                                <span>Regisztráció</span>
-                            </ResponsiveNavLink>
-                        </div>
-                        <IconButton
-                            variant="text"
-                            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-                            ripple={false}
-                            onClick={() => setOpenNav(!openNav)}
-                        >
-                            {openNav ? (
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    className="h-6 w-6"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    strokeWidth={2}
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M6 18L18 6M6 6l12 12"
-                                    />
-                                </svg>
-                            ) : (
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-6"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth={2}
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M4 6h16M4 12h16M4 18h16"
-                                    />
-                                </svg>
-                            )}
-                        </IconButton>
                     </div>
-                </div>
-                <MobileNav open={openNav}>
+                    <MobileNav open={openNav}>
                     {navList}
                     <div className="flex items-center gap-x-1">
-                        <ResponsiveNavLink fullWidth variant="text" size="sm" href={route("login")} className="hover:bg-gray-600 bg-gray-800 rounded-md">
-                            <span>Bejelentkezés</span>
-                        </ResponsiveNavLink>
-                        <ResponsiveNavLink fullWidth variant="gradient" size="sm" href={route("register")} className="hover:bg-gray-600 bg-gray-800 rounded-md">
-                            <span>Regisztráció</span>
-                        </ResponsiveNavLink>
+                     
                     </div>
                 </MobileNav>
             </Navbar>
