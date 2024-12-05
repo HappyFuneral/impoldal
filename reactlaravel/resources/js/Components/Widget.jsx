@@ -15,12 +15,12 @@ export function Widget({events}) {
 
 
                 <div className="grid mb-5 text-white justify-items-center">
-                    <div className="rounded-md text-sm md:w-3/5  w-full md:px-0 px-5">
+                    <div className="rounded-md text-sm md:w-3/5  w-full md:px-0 px-3">
 
                     <Typography  id="intro" variant="h3" className="text-center mb-10 md:mt-10 mt-20" color="white">
                             Bevezető
                         </Typography>
-                        <div className="md:px-20 px-10 md:text-2xl text-lg text-justify md:mt-20 mt-10 mb-5 md:mb-10">
+                        <div className="md:px-10 md:text-2xl text-lg text-justify md:mt-20 mt-10 mb-5 md:mb-10">
                         Üdv az Impardonné hivatalos honlapján!
                         Az Impardonné egy Pest vármegyei, újkeletű Alternatív-Rock zenekar, melynek célja már a megalakulás óta az új dolgok alkotása. Nagy hangsúlyt fektetünk az egyediségre, viszont igyekszünk olyan dalokat alkotni, melyeket bárki átérezhet, és megtalálja benne a neki szánt mondanivalót, üzenetet.
                         </div>

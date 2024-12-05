@@ -23,8 +23,6 @@ export default function Welcome({ auth, laravelVersion, phpVersion ,events}) {
             <NavbarDefault number={eventss.length}>
                 <div className="bg-black/70">
                     <CarouselDefault></CarouselDefault>
-                    <div className="flex justify-center w-full ">
-                    </div>
 
                     <Widget events={eventss}/>
                 </div>

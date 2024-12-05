@@ -15,30 +15,30 @@ export function ContactForm() {
         {maintenance }?
             (
 
-                <Card color="transparent"  className="items-center p-2 text-center black  w-96" shadow={false}>
+                <Card color="transparent"  className="items-center p-2 text-center black  w-full" shadow={false}>
 
 
                 <TextBlock>
                     <Typography variant="h4" color="white" className="mb-10">
                         Keressen minket!
                     </Typography>
-                    <Typography color="white" className="mt-1 font-normal text-justify">
+                    <Typography color="white" className="mt-1 font-normal text-center">
                         Koncertszervezéssel, illetve bármi egyébbel kapcsolatban bátran írjon nekünk vagy hívjon minket telefonon!
                     </Typography>
                     <div className="flex text-justify">
-                    <Typography as="a" href="mailto:impardonne.band@gmail.com" className="w-1/2 flex py-5 mx-2 mt-5 text-white text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
-                    <span className="mx-2">Email</span>  <FontAwesomeIcon icon={faMessage}></FontAwesomeIcon>
+                    <Typography as="a" href="mailto:impardonne.band@gmail.com" className="w-1/2   flex py-5 mt-5 text-white md:text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
+                    <span className="me-1">Email</span>  <FontAwesomeIcon icon={faMessage}></FontAwesomeIcon>
                     </Typography>
-                    <Typography as="a" href="tel:+36205269360" className="w-1/2 justify-end flex py-5 mx-2 mt-5 text-white text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
-                        <span className="mx-2">Telefon</span> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+                    <Typography as="a" href="tel:+36205269360" className="w-1/2  justify-end flex py-5 mt-5 text-white md:text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
+                        <span className="me-1">Telefon</span> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
                     </Typography>
                     </div>
                     <div className="flex text-justify">
-                    <Typography as="a" href="https://www.facebook.com/impardonnezenekar" className="w-1/2 flex py-5 mx-2 mt-5 text-white text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
-                        <span className="mx-2">Facebook</span>  <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+                    <Typography as="a" href="https://www.facebook.com/impardonnezenekar" className="w-1/2 flex py-5  mt-5 text-white md:text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
+                        <span className="me-1">Facebook</span>  <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
                     </Typography>
-                    <Typography as="a" href="https://youtube.com/@impardonne-us2zo?si=fgok3lJrtSNNzA5B" className="w-1/2 justify-end flex py-5 mx-2 mt-5 text-white text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
-                        <span className="mx-2">Youtube</span>  <FontAwesomeIcon icon={faArrowCircleLeft}></FontAwesomeIcon>
+                    <Typography as="a" href="https://youtube.com/@impardonne-us2zo?si=fgok3lJrtSNNzA5B" className="w-1/2 justify-end flex py-5 mt-5 text-white md:text-3xl py-2 hover:cursor-pointer  px-2  hover:-translate-y-1 hover:scale-105 hover:rounded-md duration-300 font-bold">
+                        <span className="me-1">Youtube</span>  <FontAwesomeIcon icon={faArrowCircleLeft}></FontAwesomeIcon>
                     </Typography>
                     </div>
 
