@@ -3,12 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "watch:node-sass": "nodemon -e scss -x \"npm run node-sass\"",
-        "watch:html-minifier": "nodemon -e html -x \"npm run html-minifier\"",
-        "watch:imagemin": "nodemon --watch src/images -x \"npm run imagemin\"",
-        "watch": "npm run watch:node-sass & npm run watch:html-minifier & npm run watch:imagemin"
-    
+        "build": "vite build"
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
@@ -45,6 +40,7 @@
         "react-router-dom": "^6.27.0",
         "sass": "^1.80.3",
         "styled-components": "^6.1.13",
-        "uuid": "^10.0.0"
+        "uuid": "^10.0.0",
+        "watch": "^1.0.2"
     }
 }
