@@ -3,7 +3,12 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "watch:node-sass": "nodemon -e scss -x \"npm run node-sass\"",
+        "watch:html-minifier": "nodemon -e html -x \"npm run html-minifier\"",
+        "watch:imagemin": "nodemon --watch src/images -x \"npm run imagemin\"",
+        "watch": "npm run watch:node-sass & npm run watch:html-minifier & npm run watch:imagemin"
+    
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
