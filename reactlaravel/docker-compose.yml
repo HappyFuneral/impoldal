@@ -56,6 +56,7 @@ services:
         - '443:443' # Public HTTPS Port
         # Add any other Stream port you wa
         volumes:
+        - ./proxy/default.conf:/etc/nginx/conf.d
         - ./certbot/conf:/etc/letsencrypt
         - ./certbot/www:/var/www/certbot
         networks:
