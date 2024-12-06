@@ -16,7 +16,7 @@ export default function About() {
             <Head title="Főoldal"/>
 
             <NavbarDefault number={0}>
-                <div className="bg-black/70">
+                <div className="bg-black/70 ">
 
                     <div className="flex justify-center w-full ">
                     <AboutInfo/>
