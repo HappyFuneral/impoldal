@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<?php header("Access-Control-Allow-Origin: *");?>
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
         <title inertia>{{ config('app.name', 'Impardonné') }}</title>
         <meta name="description" content="Egy élmény, amit a zenén keresztül adunk át!">
         <meta name="keywords" content="Impardonné, alter, rock, metál, alterzene, zene, rockzene, impardonné">
