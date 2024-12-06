@@ -53,7 +53,10 @@ services:
         volumes:
         - ./certbot/conf:/etc/letsencrypt
         - ./certbot/www:/var/www/certbot
-#       command: certonly --webroot -w /var/www/certbot --force-renewal --email milan.maroevich@gmail.com -d hellneverends.hu --agree-tos
+#       command: certbot certonly --webroot --webroot-path /var/www/certbot/ --dry-run -d impardonne.hu
+
+
+
 networks:
     sail:
         driver: bridge
