@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php header("Access-Control-Allow-Origin: *");?>
         <title inertia>{{ config('app.name', 'Impardonné') }}</title>
-
+        <meta name="description" content="Egy élmény, amit a zenén keresztül adunk át!">
+        <meta name="keywords" content="Impardonné, alter, rock, metál, alterzene, zene, rockzene, impardonné">
+        <meta name="author" content="Maroevich Milán">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
