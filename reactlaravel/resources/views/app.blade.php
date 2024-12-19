@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+        <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+        <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
         <title inertia>{{ config('app.name', 'Impardonné') }}</title>
         <meta name="description" content="Egy élmény, amit a zenén keresztül adunk át!">
         <meta name="keywords" content="Impardonné, alter, rock, metál, alterzene, zene, rockzene, impardonné">
