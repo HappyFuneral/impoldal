@@ -3,8 +3,7 @@
     <head>
         <meta http-equiv="Access-Control-Allow-Origin" content="*" />
         <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
-        <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+        <meta http-equiv="Cross-Origin-Opener-Policy" content="none">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title inertia>{{ config('app.name', 'Impardonné') }}</title>
