@@ -70,8 +70,6 @@ services:
 #       command: certonly --webroot -w /var/www/certbot --force-renewal --email milan.maroevich@gmail.com -d impardonne.hu --agree-tos
         networks:
             - sail
-
-
 networks:
     sail:
         driver: bridge
